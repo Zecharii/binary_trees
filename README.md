@@ -10,17 +10,17 @@ This project was done as part of the **Software Engineering** at **ALX**. It was
 
 At the end of this project, We were able to answer these questions:
 
-. What is a binary tree
-. What is the difference between a binary tree and a Binary Search Tree
-. What is the possible gain in terms of time complexity compared to linked lists
-. What are the depth, the height, the size of a binary tree
-. What are the different traversal methods to go through a binary tree
-. What is a complete, a full, a perfect, a balanced binary tree
+* What is a binary tree
+* What is the difference between a binary tree and a Binary Search Tree
+* What is the possible gain in terms of time complexity compared to linked lists
+* What are the depth, the height, the size of a binary tree
+* What are the different traversal methods to go through a binary tree
+* What is a complete, a full, a perfect, a balanced binary tree
 
 ## Data Structures
-The following data structures and binary tree types are used in this project. They are also included in the header file
-.
-* Basic Binary Tree
+The following data structures and binary tree types are used in this project. They are also included in the header file.
+
+Basic Binary Tree
 ```
 /**
  * struct binary_tree_s - Binary tree node
@@ -41,17 +41,17 @@ struct binary_tree_s
 typedef struct binary_tree_s binary_tree_t;
 ```
 
-* Binary Search Tree
+Binary Search Tree
 ```
 typedef struct binary_tree_s bst_t;
 ```
 
-* AVL Tree
+AVL Tree
 ```
 typedef struct binary_tree_s avl_t;
 ```
 
-* Max Binary Heap
+Max Binary Heap
 ```
 typedef struct binary_tree_s heap_t;
 ```
